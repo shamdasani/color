@@ -14,3 +14,10 @@
         setBackground();
       }
   }
+
+// Spacebar message
+  function message(){
+    document.getElementById("message").style.display=" none";
+  }
+
+  window.setTimeout("message();", 1000);

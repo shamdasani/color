@@ -36,6 +36,12 @@ p a  {
   position: absolute;
   padding-bottom: 20px;
   padding-left: 20px;
-
   bottom: 0;
 }
+
+.spacebar {
+  color: 333;
+  text-align: center;
+  padding-top: 300px;
+}
+
