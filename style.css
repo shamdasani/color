@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100';
+
+body {
+  transition: all .5s ease;
+  font-family: "Lato", sans-serif;
+
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+p {
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  padding-right: 20px;
+}
+
+p a  {
+  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.ghbutton {
+  position: absolute;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  bottom: 0;
+}
