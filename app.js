@@ -38,7 +38,4 @@
         }
     }
 
-    document.body.touchstart = function {
-      setBackground();
-    }
 
