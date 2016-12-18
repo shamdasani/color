@@ -36,6 +36,10 @@
           document.getElementById("message").style.display="none";
           document.getElementById("color").style.display="inline";
         }
-    }
+    };
+
+    document.body.touchstart = function() {
+      setBackground();
+    };
 
 
