@@ -1,8 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:100';
 
 body {
   transition: all .8s ease;
-  font-family: "Lato", sans-serif;
+  font-family: Avenir Next, Helvetica, Arial, sans-serif;
 
 }
 
@@ -15,13 +14,14 @@ body {
 
 h1 {
   font-size: 15vw;
-  font-weight: 700;
+  font-weight: 500;
   display: none;
 }
 
 h2 {
   color: #fff;
   font-size: 2vw;
+  font-weight: 200;
 }
 
 p {
