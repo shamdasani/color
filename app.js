@@ -27,6 +27,7 @@
       document.getElementById("color").style.color = txColor;
       document.getElementById("bg").innerHTML = bgColor;
       document.getElementById("txt").innerHTML = txColor;
+      console.log('textColor ' + txColor + ' // ' + 'bgColor ' + bgColor)
     }
 
   // runs function on space key
@@ -37,9 +38,11 @@
           document.getElementById("color").style.display="inline";
         }
     };
-
-    document.body.touchstart = function() {
-      setBackground();
-    };
+  // runs function on click
+    document.addEventListener('click', function(){
+          setBackground();
+          document.getElementById("message").style.display="none";
+          document.getElementById("color").style.display="inline";
+});
 
 
